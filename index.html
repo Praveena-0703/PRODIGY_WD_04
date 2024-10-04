@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css"> <!-- Ensure this points to the correct CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <img src="https://media.licdn.com/dms/image/v2/D4E03AQHNQt6C2VbHcA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726839845360?e=2147483647&v=beta&t=-ojxNpmsg42I-MLR3ebvEd7oMy1quOHeQWmA9mhOcLg" alt="Your Name" class="circular-image"> <!-- Circular image -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li> <!-- Removed Weather link -->
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Your go-to web developer</p>
+        <img src="https://media.licdn.com/dms/image/v2/D4E03AQHNQt6C2VbHcA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726839845360?e=2147483647&v=beta&t=-ojxNpmsg42I-MLR3ebvEd7oMy1quOHeQWmA9mhOcLg" alt="Your Name" class="profile-photo">
+        <button id="scrollBtn">Scroll Down</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me <i class="fas fa-user-circle"></i></h2>
+        <p>Hello everyone, I'm Praveena Prem, a passionate newcomer to the world of coding.I have always been fascinated by technology and how it shapes our world. After exploring various interests, I decided to dive into coding as a way to combine my creativity with analytical thinking. I'm currently pursuing Computer Science Engineering at Mohandas College of Engineering and Technology.My goal is to continually expand my skills and knowledge in programming.As I embark on this coding adventure, I'm committed to staying curious, embracing challenges, and enjoying every step of the process. If you’d like to connect or share tips and resources, feel free to reach out!</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects <i class="fas fa-project-diagram"></i></h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>An Interactive Landing Page</h3>
+                <p>This interactive landing page project showcases my ability to create engaging and user-friendly web experiences. Built using HTML, CSS, and JavaScript, the page combines visually appealing design with responsive functionality to effectively capture visitors' attention. Users can navigate through various sections, each highlighting key features and benefits, while interactive elements enhance user engagement.</p>
+                <img src="project1.jpg" alt="Project 1" class="project-image">
+            </div>
+            <div class="project">
+                <h3>Tic-Tac-Toe</h3>
+                <p>This Tic Tac Toe project is a dynamic web-based game that brings the classic experience of this beloved pastime to the digital realm. Developed using HTML, CSS, and JavaScript, the game features an intuitive interface where users can easily place their Xs and Os on a 3x3 grid. With real-time feedback, players can enjoy an engaging gameplay experience that includes win detection and turn management</p>
+                <img src="http://wKhRLTEvnI65i7m:50ZlVD327T6yW5v@localhost:22699/storage/emulated/0/Tictactoe.html" alt="Project 2" class="project-image">
+            </div>
+            <div class="project">
+                <h3>Stopwatch Web Application</h3>
+                <p>The Stopwatch Web Application is a project that highlights my ability to develop functional and interactive web tools using HTML, CSS, and JavaScript. This application allows users to easily measure time with features such as start, pause, lap, and reset functions. The intuitive user interface ensures a seamless experience, while the precise timing capabilities make it ideal for various activities, from sports to cooking. </p>
+                <img src="project3.jpg" alt="Project 3" class="project-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me <i class="fas fa-envelope"></i></h2>
+        <p>Email: praveenaprem7@gmail.com</p>
+        <p>Phone no: 7907789376</p>
+        <div class="contact-me">
+            <h3>Connect with me:</h3>
+            <a href="https://www.instagram.com/praveena_prem?igsh=eDZ3ODNhNG82aGRk" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/yourusername" target="_blank" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/yourusername" target="_blank" title="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/praveena-prem-6a8429304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Praveena Prem. All rights reserved.</p>
+    </footer>
+
+    <script src="portfolio.js"></script> <!-- Remove this if the weather script is not needed -->
+</body>
+</html>
